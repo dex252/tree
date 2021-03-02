@@ -39,7 +39,6 @@ namespace TreeNet.Views
             this.ContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.AddNode = new System.Windows.Forms.ToolStripMenuItem();
             this.RemoveNode = new System.Windows.Forms.ToolStripMenuItem();
-            this.Calculate = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.ContextMenu.SuspendLayout();
@@ -108,17 +107,16 @@ namespace TreeNet.Views
             // 
             this.ContextMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AddNode,
-            this.RemoveNode,
-            this.Calculate});
+            this.RemoveNode});
             this.ContextMenu.Name = "ContextMenu";
-            this.ContextMenu.Size = new System.Drawing.Size(192, 70);
+            this.ContextMenu.Size = new System.Drawing.Size(154, 48);
             this.ContextMenu.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.ContextMenuClickItem);
             // 
             // AddNode
             // 
             this.AddNode.Image = ((System.Drawing.Image)(resources.GetObject("AddNode.Image")));
             this.AddNode.Name = "AddNode";
-            this.AddNode.Size = new System.Drawing.Size(191, 22);
+            this.AddNode.Size = new System.Drawing.Size(153, 22);
             this.AddNode.Tag = "Add";
             this.AddNode.Text = "Добавить узел";
             // 
@@ -126,16 +124,9 @@ namespace TreeNet.Views
             // 
             this.RemoveNode.Image = ((System.Drawing.Image)(resources.GetObject("RemoveNode.Image")));
             this.RemoveNode.Name = "RemoveNode";
-            this.RemoveNode.Size = new System.Drawing.Size(191, 22);
+            this.RemoveNode.Size = new System.Drawing.Size(153, 22);
             this.RemoveNode.Tag = "Remove";
             this.RemoveNode.Text = "Удалить узел";
-            // 
-            // Calculate
-            // 
-            this.Calculate.Name = "Calculate";
-            this.Calculate.Size = new System.Drawing.Size(191, 22);
-            this.Calculate.Tag = "Calc";
-            this.Calculate.Text = "Вычислить вершины";
             // 
             // Screen
             // 
@@ -158,7 +149,6 @@ namespace TreeNet.Views
         private System.Windows.Forms.TreeView TreeView;
         private System.Windows.Forms.ToolStripMenuItem AddNode;
         private System.Windows.Forms.ToolStripMenuItem RemoveNode;
-        private System.Windows.Forms.ToolStripMenuItem Calculate;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Panel Panel;

@@ -27,6 +27,8 @@ namespace TreeNet.Views
             canvas.Clear(Color.White);
             Tree.DrawTree(canvas);
 
+            Tree.CalculateAll();
+
             if (Selected == null)
             {
                 return;
@@ -107,11 +109,6 @@ namespace TreeNet.Views
                 return;
             }
 
-            if (e.ClickedItem.Tag?.ToString() == "Calc")
-            {
-                Tree.CalculateAll();
-                Panel.Invalidate();
-            }
         }
 
         public void UpdateImage()
