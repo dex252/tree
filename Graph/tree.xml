@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <tree>
+    <node id="99">
+      <bond></bond>
+    </node>
+    <node id="1"> 
+      <bond>2 3 4</bond>
+    </node>
+    <node id="2">
+      <bond>5 6 7</bond>
+    </node>
+    <node id="3">
+      <bond>8</bond>
+    </node>
+    <node id="4">
+      <bond>9 10</bond>
+    </node>
+    <node id="5">
+      <bond>11 12</bond>
+    </node>
+    <node id="6">
+      <bond>13</bond>
+    </node>
+    <node id="7">
+      <bond></bond>
+    </node>
+    <node id="8">
+      <bond>14 15</bond>
+    </node>
+    <node id="9">
+      <bond>16</bond>
+    </node>
+    <node id="10">
+      <bond></bond>
+    </node>
+    <node id="11">
+      <bond></bond>
+    </node>
+    <node id="12">
+      <bond></bond>
+    </node>
+    <node id="13">
+      <bond></bond>
+    </node>
+    <node id="14">
+      <bond></bond>
+    </node>
+    <node id="15">
+      <bond></bond>
+    </node>
+    <node id="16">
+      <bond></bond>
+    </node>
+  </tree>
+</root>
